@@ -1,0 +1,51 @@
+.movies-card__show-more-btn {
+    align-self: center;
+    max-width: 100%;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+    border: 1px solid #424242;
+    padding: 10px 20px 9px;
+
+    border-radius: 8px;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: #313131;
+  }
+  
+  .link:hover {
+    transition: opacity 0.2s linear;
+    opacity: 0.5;
+  }
+
+
+  @media screen and (min-width: 768px) {
+    .movies-card__show-more-btn {
+        width: 320px;
+      }
+  }
+
+   
+.more-movies {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 70px 80px 70px;
+    max-width: 1280px;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .more-movies {
+      padding: 0px 30px 80px 30px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .more-movies {
+      padding: 0px 10px 80px 10px;
+    }
+  }
