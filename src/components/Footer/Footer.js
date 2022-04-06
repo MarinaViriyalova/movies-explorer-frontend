@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function Footer() {
+export default function Footer() {
     return (
         <section className='footer'>
             <p className='footer__paragraph'>Учебный проект Яндекс.Практикум х BeatFilm.</p>

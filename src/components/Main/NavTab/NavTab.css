@@ -11,10 +11,11 @@
 
 .navtab__list {
     padding: 0;
-    margin: 24px 0 0;
+  
     display: flex;
     list-style: none;
 }
+
 
 .navtab__link {
     transition: opacity 0.3s ease-in-out;
@@ -30,6 +31,7 @@
 
 .navtab__link:hover {
     opacity: .6;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 420px) {

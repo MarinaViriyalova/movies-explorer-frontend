@@ -1,5 +1,6 @@
 import MoviesCard from '../MoviesCard/MoviesCard';
 import './MoviesCardList.css';
+
 // import Preloader from '../Preloader/Preloader';
 
 function MoviesCardList() {
@@ -14,9 +15,6 @@ function MoviesCardList() {
         <ul className='movies-card__list'>
           <MoviesCard />
         </ul>
-        <button className='movies-card__show-more-btn link' type='button'>
-          Ещё
-        </button>
       </div>
     </section>
   );
